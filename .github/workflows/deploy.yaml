@@ -17,7 +17,7 @@ jobs:
         uses: databricks/setup-cli@main
 
       - name: Deploy bundle
-        run: databricks repos update /Repos/ove@coresoft.no/databricks-dataops-course --branch feat/gh-azzlack-bgo
+        run: databricks repos update /Volumes/Repos/ove@coresoft.no/databricks-dataops-course --branch feat/gh-azzlack-bgo
         env:
           DATABRICKS_TOKEN: ${{ secrets.DATABRICKS_TOKEN }}
           DATABRICKS_HOST: ${{secrets.DATABRICKS_HOST }}
