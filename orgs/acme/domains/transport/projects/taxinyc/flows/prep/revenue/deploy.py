@@ -61,7 +61,7 @@ run_job_by_name(dbutils=dbutils, job_name=response['job_name'])
 
 # os.environ['PIPELINE_ENV'] = 'prod'
 # Deploy jobs based on deployment.yml, in dev mode
-# prod_response = autojob(env="prod")
+prod_response = autojob(env="prod")
 
 # COMMAND ----------
 
@@ -76,7 +76,7 @@ run_job_by_name(dbutils=dbutils, job_name=response['job_name'])
 
 # COMMAND ----------
 
-run_job_by_name(dbutils=dbutils, job_name="acme_transport_taxinyc_prep_dev_ove_featghazzlackbgo_4c6799ab")
+run_job_by_name(dbutils=dbutils, job_name=prod_response['job_name'])
 
 # COMMAND ----------
 
