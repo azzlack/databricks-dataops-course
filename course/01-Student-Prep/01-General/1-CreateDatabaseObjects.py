@@ -48,4 +48,8 @@ spark.sql(f"CREATE DATABASE IF NOT EXISTS {revenue_db}")
 
 # COMMAND ----------
 
-
+# MAGIC %sql
+# MAGIC USE CATALOG acme_transport_taxinyc;
+# MAGIC USE DATABASE dev_ove_featghazzlackbgo_4c6799ab_revenue;
+# MAGIC SHOW TABLES
+# MAGIC

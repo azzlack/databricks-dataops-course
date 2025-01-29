@@ -16,8 +16,8 @@
 # COMMAND ----------
 
 # Enable live reloading of libs, not needed now
-# %load_ext autoreload
-# %autoreload 2
+%load_ext autoreload
+%autoreload 2
 
 # COMMAND ----------
 
@@ -67,11 +67,16 @@ run_job_by_name(dbutils=dbutils, job_name=response['job_name'])
 
 # MAGIC %md
 # MAGIC
+
+# COMMAND ----------
+
+# MAGIC %md
+# MAGIC
 # MAGIC ## Task: Run prod job with python
 
 # COMMAND ----------
 
-# run_job_by_name(dbutils=dbutils, job_name=prod_response['job_name'])
+run_job_by_name(dbutils=dbutils, job_name="acme_transport_taxinyc_prep_dev_ove_featghazzlackbgo_4c6799ab")
 
 # COMMAND ----------
 

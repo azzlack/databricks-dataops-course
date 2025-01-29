@@ -47,7 +47,7 @@
 
 # MAGIC %md
 # MAGIC
-# MAGIC Answer here...
+# MAGIC A job is a definition of what should be done. The job run is an instance of it that actually does the work.
 
 # COMMAND ----------
 
@@ -60,4 +60,4 @@
 
 # MAGIC %md
 # MAGIC
-# MAGIC Answer here...
+# MAGIC The job name is composed of the user name, branch name and the git commit id
